@@ -1,4 +1,4 @@
-#__author__ = 'bosito7@gmail.com'
+__author__ = 'bosito7@gmail.com'
 
 import logging
 
