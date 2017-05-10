@@ -1,6 +1,10 @@
-__author__ = 'bosito7@gmail.com'
+__author__ = 'bosito7'
+__contact__ = 'bosito7@gmail.com'
+
 
 import logging
+import caffe
+from caffe import layers as L
 
 from sleekxmpp import ClientXMPP
 from sleekxmpp.exceptions import IqError, IqTimeout
@@ -67,6 +71,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG,
                         format='%(levelname)-8s %(message)s')
 
-    xmpp = consoleBot('userXXX@gmail.com', 'passXXX')
+    xmpp = consoleBot('console.chat.bot@gmail.com', 'consolechat')
     xmpp.connect()
     xmpp.process(block=True)
